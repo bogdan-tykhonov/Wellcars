@@ -1,0 +1,538 @@
+@media (max-width:1900px){
+   
+    .slider-content{
+        top:50px;
+    }
+    .car-detail {
+        top: -190px;
+    }
+}
+
+@media (max-width:1600px){
+    .info-column{
+width: 560px!important;
+    }
+    .form{
+        top: 550px;
+    }
+    .form .inputs input{
+        height: 40px;
+    }
+   .form button{
+       height: 50px;
+       font-size: 18px;
+   }
+   .slick-dots button::before{
+       font-size: 20px!important;
+   }
+   .engine, .car-detail{
+     
+       bottom: 0px;
+   }
+   .margin-ul{
+       margin-top: 85px;
+   }
+}
+@media(max-width:1500px){
+    .footer-wrapper .adress{
+        margin-left: 30px!important;
+    }
+    .car-detail {
+        top: -100px;
+    }
+    .margin-ul{
+        margin-top: 65px;
+    }
+    .container{
+        width: 1140px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .prices span{
+        font-size: 16px;
+    }
+    .prices .green-text{
+        font-size: 36px;
+    }
+    .white-price{
+        font-size: 18px;
+    }
+    .price-line span{
+        font-size: 16px;
+    }
+    .price-line .white-price{
+        font-size: 18px;
+    }
+    .li-margin::after {
+        margin-top: 30px !important;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .nav-bar .container{
+        width: 90%;
+    }
+   
+    .slider-content p{
+font-size: 20px;
+    }
+    .emblem{
+        font-size: 16px;
+    }
+    .emblem-container{
+        width: 700px;
+    }
+    .form button{
+       
+        font-size: 14px;
+    }
+    .toggles-answer .toggle-btn{
+        font-size: 18px;
+    }
+    .answer-slider{
+        font-size: 16px;
+    }
+    .our-advantages .advantages-row:last-child {
+        margin-top: 100px ;
+    }
+    .num{
+        font-size: 36px;
+    }
+    .order-of-work .order-form input {
+        height: 60px;
+    }
+    .order-of-work .order-form button{
+        height: 60px;
+    }
+    .paragraph h3{
+font-size: 20px;
+    }
+    .order-of-work{
+margin-top: 210px;
+    }
+    .toggles-answer .toggle-btn{
+padding: 30px;
+    }
+    .answer-block{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:1400px){
+
+    .slider-content{
+        top:10px;
+    }
+   .form{
+        top: 500px;
+        padding: 20px 30px 30px;
+    }
+    .form h2{
+        margin-bottom: 20px;
+    }
+    nav button{
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .engine, .car-detail{
+       
+        bottom: 0px;
+    }
+    .service-content{
+        width: 130px;
+    }
+    .service-content p,a{
+        font-size: 16px;
+    }
+    .service-content img{
+        width: 72px;
+        height: 72px;
+    }
+    .turbine1{
+        top: -30px;
+    }
+}
+@media(max-width:1200px){
+    .footer-wrapper .adress {
+        margin-left: 0px!important;
+    }
+    .location{
+        flex-direction: column;
+    }
+    .adress{
+        margin-left: 0px!important;
+    }
+    .margin-ul {
+        margin-top: 55px;
+    }
+    .container{
+        width: 930px;
+    }
+    .wheel{
+        bottom: -300px;
+    }
+   .nav-bar{
+       display: none;
+   }
+
+   nav{
+       margin-bottom: 30px;
+   }
+   .fa-bars{
+    display: block!important;
+}
+.advantages-row{
+margin-bottom: 100px;
+}
+.advanteges-content{
+    width: 30%;
+}
+.car {
+ 
+    right: -100px;
+    width: 50%;
+}
+.toggles-answer .toggle-btn {
+    font-size: 14px;
+}
+.answer-slider {
+    font-size: 14px;
+    width: 90%;
+}
+.car-detail{
+    display: none;
+}
+}
+@media(max-width:992px){
+    .prices-wrapper h2 {
+        margin-bottom: 10px;
+    }
+    .small-price-list{
+       
+        display: block;
+    }
+    
+    .slider-content{
+        top: 60px;
+    }
+    .main-slider{
+        height: 420px;
+    }
+    .main-slider img{
+        height: 420px;
+    }
+    .emblem img{
+height: auto;
+    }
+    footer {
+        height: 250px;
+    }
+    footer ul{
+            width: 110px;
+    }
+    .contact-form{
+        width: 40%;
+min-width: 280px;
+    }
+    .contact-form h2{
+        font-size: 24px;
+    }
+    .question-column h2{
+        align-items: center;
+    }
+    .question-column {
+        width: 100%;
+        margin-bottom: 100px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .toggles-answer {
+        width: 90%;
+    }
+    .questions{
+        flex-direction: column;
+        align-items: center;
+    }
+    .paragraph-friends {
+        text-align: center;
+    }
+    .investor{
+        height: 100px;
+    }
+    .container{
+        width: 720px;
+    }
+    header .adress{
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .slider-content p{
+        margin-top: 0;
+        font-size: 16px;
+    }
+    .emblem-container{
+        width: 550px;
+    }
+    .emblem{
+        align-items: center;
+        font-size: 14px;
+    }
+    .form h2{
+        font-size: 24px;
+    }
+    .form button {
+        font-size: 12px;
+    }
+    .form{
+        top: 550px!important;
+    }
+    .slick-dots{
+        bottom: 30px!important;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .services-column{
+        width: 80%;
+        margin: auto;
+    }
+    .services-column:first-child{
+        margin-bottom: 50px;
+    }
+    .our-works{
+        flex-direction: column-reverse;
+    }
+    .our-works .coments {
+        width: 70%;
+    }
+   .slider-car{
+       width: 80%;
+   }
+   .slider-car .slick-dots {
+    bottom: 20px !important;
+}
+.advantages-row{
+    flex-direction: column;
+    height: 100%;
+   align-items: center;
+}
+.our-advantages{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 600px;
+    flex-direction: row;
+    width: 100%;
+    
+    height: 100%;
+}
+.our-advantages .advantages-row .advanteges-content {
+    height: auto;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.advantages-row:last-child .advanteges-content:last-child{
+margin-top: 35px;
+}
+.price-list{
+    display: none;
+}
+.prices-wrapper h2{
+   text-align:center;
+   
+}
+.small-price-list{
+    display: block;
+}
+.order-of-work .order-list {
+    width: 50%;
+}
+.car {
+    right: -200px;
+}
+.companys{
+    flex-direction: column;
+}
+.company-row{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.investor {
+    height: 150px;
+}
+}
+@media(max-width:768px){
+    .small-nav .nav-list-small{
+        width: 300px;
+    }
+    .footer-wrapper .number,.footer-wrapper .location{
+        font-size: 16px;
+    }
+    footer{
+        height: 560px;
+    }
+    .footer-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-wrapper ul{
+        width: 210px;
+        margin-bottom: 10px;
+    }
+
+    .info{
+        height: 1040px;
+        background-size:  auto 1040px;
+    }
+    .car{
+        bottom: 50px;
+        right: 50px;
+        width: 80%;
+    }
+    .info-column h2{
+        font-size: 24px;
+    }
+    .info-column p,h3 {
+        font-size: 14px;
+    }
+    .order-of-work .order-list {
+        width: 80%;
+    }
+    .order-of-work{
+        flex-direction: column;
+        align-items: center;
+    }
+    .order-form{
+        width: 80%!important;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .advantages-row {
+        margin-bottom: 600px;
+    }
+    .our-advantages{
+        flex-direction: column;
+    }
+        .container{
+
+        width: 560px;
+    }
+    nav .phone, nav button{
+        display: none;
+    }
+   nav img{
+       margin: auto;
+   }
+   .small-phone{
+       display: block;
+   }
+   .form{
+       display: none;
+   }
+   .services-bar{
+       margin: 0;
+   }
+   .services-wrapper h2{
+text-align: center;
+   }
+}
+@media(max-width:576px){
+    
+    .advantages-row {
+        margin-bottom: 700px;
+    }
+    .services {
+        flex-direction: row;
+    }
+    .services-column{
+        flex-direction: column;
+        margin: 0;
+        justify-content:start;
+        align-items: center;
+    }
+    .service-content{
+        margin-bottom: 20px;
+    }
+    .slider-content{
+        top:0px;
+    }
+    .slider-content h1, .slider-content p{
+        text-align: center;
+        width: 294px;
+    }
+    .emblem-container{
+        flex-direction: column;
+        width: 290px;
+    }
+    .companys{
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-between;
+        
+    }
+    .company-row{
+       
+        flex-direction: column;
+    }
+    .investor{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .contact-form .adress, .contact-form .mail{
+        font-size: 16px;
+    }
+    .contact-form{
+        min-width: 260px;
+        height: 310px;
+        padding: 20px;
+    }
+    .contact-form button{
+        width: 100%;
+    }
+    .order-of-work{
+        width: 80%;
+    }
+    .container{
+        width: 420px;
+    }
+  
+}
+@media(max-width:430px){
+    .answer-active{
+        height: 200px;
+        padding: 30px;
+    }
+    .toggle-btn-text {
+        font-weight: 500;
+    }
+    h2{
+        text-align: center;
+    }
+    .advantages-row {
+        margin-bottom: 800px;
+    }
+    .prices{
+        height: 1300px;
+    }
+    .toggle-price{
+        width: 300px;
+    }
+    .container{
+        width: 300px;
+    }
+    .investor{
+        width: 140px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    
+}
