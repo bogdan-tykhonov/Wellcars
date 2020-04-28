@@ -19,7 +19,6 @@ body{
     font-family: $family;
     font-size: 18px;
     font-weight: regular;
-    
 }
 ul{
     padding: 0;
@@ -462,6 +461,7 @@ img{
     
 }
 //////////////////////////////form///////////////
+
 .form{
     width: 61%;
     box-shadow: 0 20px 20px  rgba(0,0,0,0.5);
@@ -469,6 +469,7 @@ img{
     background-color: white;
     padding:  20px 40px 40px;
     position: absolute;
+    min-width: 630px;
     top: 650px;
     h2{
         font-size: 30px;
@@ -492,7 +493,9 @@ img{
             }
         }
     }
-    button{
+    .submit{
+        background-color: $green;
+        color: white;
         width: 29%;
         height: 65px;
         font-size: 20px;

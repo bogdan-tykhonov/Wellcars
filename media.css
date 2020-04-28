@@ -18,9 +18,9 @@ width: 560px!important;
     .form .inputs input{
         height: 40px;
     }
-   .form button{
-       height: 50px;
-       font-size: 18px;
+   .form .submit{
+       height: 50px!important;
+       font-size: 18px!important;
    }
    .slick-dots button::before{
        font-size: 20px!important;
@@ -86,9 +86,9 @@ font-size: 20px;
     .emblem-container{
         width: 700px;
     }
-    .form button{
+    .form .submit{
        
-        font-size: 14px;
+        font-size: 14px!important;
     }
     .toggles-answer .toggle-btn{
         font-size: 18px;
@@ -287,8 +287,8 @@ min-width: 280px;
     .form h2{
         font-size: 24px;
     }
-    .form button {
-        font-size: 12px;
+    .form .submit {
+        font-size: 12px!important;
     }
     .form{
         top: 550px!important;

@@ -637,6 +637,7 @@ ul li:hover ul {
   background-color: white;
   padding: 20px 40px 40px;
   position: absolute;
+  min-width: 630px;
   top: 650px;
 }
 
@@ -688,7 +689,9 @@ ul li:hover ul {
   font-weight: 400;
 }
 
-.form button {
+.form .submit {
+  background-color: #20bb5d;
+  color: white;
   width: 29%;
   height: 65px;
   font-size: 20px;
@@ -699,7 +702,7 @@ ul li:hover ul {
   border-radius: 5px;
 }
 
-.form button:hover {
+.form .submit:hover {
   background-color: #068236;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;

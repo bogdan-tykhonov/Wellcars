@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WellCars</title>
-    <link href="stylesheet.css" rel="stylesheet">
+    <link href="/stylesheet.css" rel="stylesheet">
     <link href="/fontawesome/all.min.css" rel="stylesheet">
     <link href="media.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,700&display=swap" rel="stylesheet">
@@ -128,12 +128,17 @@
         <section class="services-bar">
             <div class="form">
                 <h2>Запишитесь на ремонт <strong>прямо сейчас</strong></h2>
+                <form >
                 <div class="inputs">
-                    <input type="text" placeholder="Ваше имя">
-                    <input type="number" placeholder="Ваш телефон">
-                    <button>Записаться на ремонт</button>
+                <input type="hidden" name="project_name" value="WellCars">
+		<input type="hidden" name="admin_email" value="bogdan.v.t@ukr.net">
+        <input type="hidden" name="form_subject" value="Form Subject">
+        
+                    <input type="text" name="user_name" placeholder="Ваше имя">
+                    <input type="number" name="user_phone" placeholder="Ваш телефон">
+                    <input class="submit" type="submit" value="Записаться на ремонт">
                 </div>
-               
+                </form>
             </div>
             <img class="engine size-big" src="images/engine.png">
             <img class="wheel size-sm" src="images/wheel.png"> 
@@ -1059,9 +1064,11 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia deleniti unde v
             © 2020 WellCars. Все права защищены
         </div>
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="main.js"></script>
+    <script src="script.js"></script>
    
 </body>
 </html>   
