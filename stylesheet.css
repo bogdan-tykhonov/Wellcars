@@ -3,11 +3,13 @@ i {
 }
 
 .size-big {
+  min-width: 100px;
   width: 15%;
   z-index: 99;
 }
 
 .size-sm {
+  min-width: 70px;
   width: 7%;
   z-index: 99;
 }
