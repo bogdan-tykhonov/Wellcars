@@ -873,6 +873,10 @@ ul li:hover ul {
           justify-content: space-between;
 }
 
+.our-advantages .advantages-row .advanteges-content img {
+  height: 141px !important;
+}
+
 .advanteges-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

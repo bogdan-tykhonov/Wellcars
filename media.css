@@ -208,6 +208,11 @@ margin-bottom: 100px;
 }
 }
 @media(max-width:992px){
+    .advantages-row{
+        margin: 0!important;
+        height: 1070px!important;
+    }
+    
     .prices-wrapper h2 {
         margin-bottom: 10px;
     }
@@ -368,6 +373,9 @@ margin-top: 35px;
 }
 }
 @media(max-width:768px){
+    .advantages-row:last-child .advanteges-content:first-child{
+        margin-top: 50px;
+    }
     .small-nav .nav-list-small{
         width: 300px;
     }
