@@ -451,6 +451,9 @@ text-align: center;
    }
 }
 @media(max-width:576px){
+    .before-car, .after-car{
+        display: none;
+    }
     
     .advantages-row {
         margin-bottom: 0px;
