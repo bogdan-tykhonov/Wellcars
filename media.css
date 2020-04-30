@@ -326,7 +326,7 @@ min-width: 280px;
 .our-advantages{
     align-items: center;
     justify-content: center;
-    margin-bottom: 600px;
+  
     flex-direction: row;
     width: 100%;
     
@@ -414,7 +414,7 @@ margin-top: 35px;
         margin-bottom: 100px;
     }
     .advantages-row {
-        margin-bottom: 600px;
+        margin-bottom: 0px;
     }
     .our-advantages{
         flex-direction: column;
@@ -445,7 +445,7 @@ text-align: center;
 @media(max-width:576px){
     
     .advantages-row {
-        margin-bottom: 700px;
+        margin-bottom: 0px;
     }
     .services {
         flex-direction: row;
@@ -518,7 +518,7 @@ text-align: center;
         text-align: center;
     }
     .advantages-row {
-        margin-bottom: 0px;
+        margin-bottom: 100px;
     }
     .prices{
         height: 1300px;
