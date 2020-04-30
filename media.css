@@ -530,8 +530,11 @@ text-align: center;
     .advantages-row {
         margin-bottom: 100px;
     }
+    .toggle-price .opened{
+        height: 960px!important;
+    }
     .prices{
-        height: 1300px;
+        height: 1400px;
     }
     .toggle-price{
         width: 300px;
