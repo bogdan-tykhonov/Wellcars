@@ -531,10 +531,10 @@ text-align: center;
         margin-bottom: 100px;
     }
     .toggle-price .opened{
-        height: 960px!important;
+        height: 980px!important;
     }
     .prices{
-        height: 1400px;
+        height: 1450px;
     }
     .toggle-price{
         width: 300px;
