@@ -469,6 +469,7 @@ text-align: center;
     }
     .slider-content{
         top:0px;
+        height: 100%;
     }
     .slider-content h1, .slider-content p{
         text-align: center;
@@ -477,6 +478,7 @@ text-align: center;
     .emblem-container{
         flex-direction: column;
         width: 290px;
+        height: 100px!important;
     }
     .companys{
         flex-direction: row;
