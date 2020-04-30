@@ -368,7 +368,6 @@ ul li:hover ul {
 .wheel {
   position: absolute;
   right: 0;
-  bottom: -650px;
 }
 
 .services-bar {

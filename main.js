@@ -125,5 +125,11 @@ if(document.documentElement.clientWidth <= 576 ){
 else return;
 }
 smallNavWidth();
-
-
+/////////wheel-cords////
+function wheelCords(){
+    let wheel = document.querySelector('.wheel');
+    let slider = document.querySelector('.slider-car');
+    wheel.style.top = slider.getBoundingClientRect().top+pageYOffset - 100 + 'px';
+    
+}
+wheelCords();
