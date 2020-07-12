@@ -201,7 +201,10 @@ margin-bottom: 100px;
 }
 .answer-slider {
     font-size: 14px;
-    width: 90%;
+    width: 80%;
+}
+.answer-active{
+height: 180px;
 }
 .car-detail{
     display: none;
